@@ -1,0 +1,30 @@
+{
+  "name": "The Scholar Key #33",
+  "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+  "image": "https://ipfs.io/ipfs/bafybeihcd4zaijveesvr57y3p5s3qvi67m3psq3qmjaj2ncbxqcxqsyoc4",
+  "attributes": [
+    {
+      "trait_type": "Material",
+      "value": "Platinum"
+    },
+    {
+      "trait_type": "Tooth",
+      "value": "Simple Tooth"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Scholar Base"
+    },
+    {
+      "trait_type": "Top",
+      "value": "Clock Top"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cream"
+    }
+  ],
+  "external_url": "https://thescholar.xyz",
+  "edition": 1,
+  "compiler": "Corpus Art Engine"
+}

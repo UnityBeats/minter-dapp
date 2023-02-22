@@ -1,0 +1,9 @@
+{
+  "response": "OK",
+  "chain": "goerli",
+  "transaction_hash": "0x5ceffc21a4ed33ceabfccbc21aca19e894c6e19fa76cfc5163530dd74efc5d8c",
+  "transaction_external_url": "https://goerli.etherscan.io/tx/0x5ceffc21a4ed33ceabfccbc21aca19e894c6e19fa76cfc5163530dd74efc5d8c",
+  "owner_address": "0x25D5bf305aA1FbD778B05Aaa454405D0094Cfa96",
+  "name": "The Scholar Keys",
+  "symbol": "TSK"
+}

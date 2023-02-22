@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "The Scholar Key #0",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeif4lrv7xie6hgyz5hp5gtemhivdaognkyl72yarjmywg7yokr6bni",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #1",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifig7gl7bcagjvwchpmz2nzsypizxf5ik44q5x3wksgfwrsb6zbsy",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #2",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeie5fshyj25qjtn7yz73nm3lym6cdt527qu65qwtnsgw6mq7iunoa4",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #3",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiajdltaopgz3yedt2k2jwrou5g66ep5g2ho5scnbstxvaojvrefzq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #4",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeicbvjmpqeow62w5evp3bdplkkagkmnlabx2pxpv4ry42q7xn36iwi",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #5",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeig6yqowx2ufg44i4xuh6ui6esoqenxv52qu5ux3yq3cpooc6dqmdi",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Anchor Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Library"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #6",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihbyutflpzby4hepwawivvzkqidsjya42ypx6ktplkcprj66pomby",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #7",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeicbtfyyjf3nql6dr5duej7pprwrbx3td3gksypwdvimlssjushtly",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #8",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidndq3dkla5aiqzblrymzjof7aayappn22vaaw4mi333fx3fwxh3i",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Overgrown Portal"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #9",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihtflsmpcbqirfvltkgqkyyzqnhhq5ctw75phawyxajqoctrx3qoq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Sword Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #10",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidrfesxqjwx7mjo57tcxdpndd732ahqmgl3wh4nzjsvqoejbow2zq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Glacial Lake Overlook"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #11",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeibsazqzp7txqzfz76tdwjy7vbjol4f6qv5ol44yjpuq77eltsc4ba",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #12",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeigvlrmouwm273qsewy7buvqm7xp7qnis6ubbc3eamm2wiiszc6pga",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #13",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeibtkfyjqu6djsptyixfoh67lf7eqbfbmvj2qf74qn7bwqeabr6kt4",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #14",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiawbipkxwdkwdzdtbrw5vhrmdlda3cm3xvn6tgwqylj7njay43wgm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Anchor Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #15",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiauhz2qajsl4xqf6uhygcuemmp6i6r4iyocjnomsey3sxsp42sbcy",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #16",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeif6h2rnzidko7wz2w43pnncmjtnxxr66dr4f75numryhuuuk5lnxu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Library"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #17",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiatfimagszfthcae4vnrusupniffkswubllcglvogot6ejzohmjuq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #18",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihq4bmigo3ppjigtoxx7hkxzekwp2s2igkyayrrf44ih6kptbbkxm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Platinum"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Library"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #19",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeietljjqee6sbowbah5ikcwd5asvxfxv7yuwfbdz4pusqzsm26r5xy",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cove"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #20",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihhlgbg74al3scmiqrgqbiof4s4yql47cxmr7pcgukngcxq5hdwya",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #21",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeibunmg5rtix37tcmrnk3glrevtomsie4ao4p5z3vwf3telm4sxlzu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Gold"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #22",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidkh3nfdaskctcwnazixyfoquf5ldbbbtuq67o4ilqyvxzzo5mhrm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #23",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeicvsxg63c6xepn6pzsstbyd65cstwjlans7igrpo5iwqh2nozostm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Sword Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #24",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeic6mnmns7fjcc76ajem5wsfnhlijk75v7x43nl4onpogkxh2jwdvq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Gold"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #25",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihs7oxikmoyvnlmszpng5csyfaha7dbhim2ne2kqbljjfj3n5rqka",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Anchor Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cove"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #26",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifsknsohp5r6d37sgmv5p3wktd4ndshc2h3uryhfxmwvhkun5kp7q",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Sword Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #27",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeia2q6ocbmhoq5mjf23okgfdpvh4ty66c3qh57wd7iz6q2ce4w2rmi",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cove"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #28",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeicx4doah274bxztxwhnnwyybt2ucta44kqtreahssvqt6crszgddy",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #29",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihmtrq5jt77ky3j2aw3z6tzfdv4v555xyzotjn5vc27b7yvxpueki",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #30",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifiv4lwlkpgxwbkezim4anakdgklidtviwplxhygisbpctl2z32ui",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #31",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiakm2nizwdtwbgozhdxquhjfj5s36ylpgo2suq5z3wl3od5dnsu3u",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #32",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidjohrmspulhwpiqfmngiwylezvf337sklj4y6suhmo6ve2ozdy7a",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #33",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihcd4zaijveesvr57y3p5s3qvi67m3psq3qmjaj2ncbxqcxqsyoc4",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Platinum"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #34",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeignul2iaqzm6cutgksnuxpnmbnnsfslyz5agobdjk3aecykkhl7zi",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Anchor Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #35",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeigvwy3sixyd2dcpegymsyeis2ehbws53mnagx37hjcxbjodyzcfxq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Sword Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cove"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #36",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidctpuge25prm52trx2vwd2nm4cac6rxjvu55ns75sl2gpyc657qu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #37",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeietfpx7yq7e7ho6umz6l43dxq7yomtup55emlpkr7iicltuzrvzvq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #38",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihw6k7wvc5rei74csv4er7u663tsj4yi4amwbtn5eaqex5jjcc7jm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #39",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeigonuqt67zctrn5ga2vxurrxbbjspnbi36cv4gcenz2egmtb3zovm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #40",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihcy5iwedjh6jfaysudzbeewsfleeg3vyofcbwa62y7w4jgct3x3u",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #41",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihkk5k7umpjfytfct7qlfr37vq6llb2ggl52em4tslthnaigam35a",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #42",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifqnur23mb6lfscevtckaamqvws5kgrp4322opa5mjwbag53r2vie",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #43",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifssbwqva6sn3z5dcgbsjnvjmdmrbmjpbuwjdi7w4irfcpqo7nntm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #44",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidk3qmvwedphrg6fhas57i6wtruethnuzgxvvj4leh3vkblelqwle",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Anchor Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #45",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidqaw6n4mk6m7g46vdhye3s6jkdauvwysbur5xloe3mbortlnzqha",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cove"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #46",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiag4dzezafoulcsuw6ovjqoi4fssd2w7io3gf5yju6beeswr6xm5a",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #47",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeictnhffhwew6kzlnwtfrv2d5ax7swnajqjcklrdcv5jjcvmi37wcy",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #48",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidiys54dftca6so5vwsrntgad6hsrpzm6c2mwuyhz5lsrihwukknm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Glacial Lake Overlook"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #49",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiclhabue6q4z6x5tnaprkcf5flwcfw4dtrv4rjbyflpxnuj3xui3q",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #50",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeig2dyzk4y4kakwf55exvh2a3m5rht3mvytdtuimuyfl3h5wbsh4su",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #51",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihxvuy7uqnhg5huejyr7mby2oalzvecogmw5gqrvbjcu6zrfjzuoi",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Gold"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Overgrown Portal"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #52",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiak6cia7z64woboqqpsnltllx5ya4gdpwhiufngitznza623k76hm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Library"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #53",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidqvywsxw4haz6gshaig462n5sdlxvbhxjqzdxm5z7r6kw4jhf2by",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #54",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeielnkktoumdsjimv2zyp6gue4z2kt5m3kgpibasptntuliaa2ppzi",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #55",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihj53y5j5xyfpiotnl2batskwc4ddo4mh63yuuuaudgdqpq5kysvy",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Glacial Lake Overlook"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #56",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeicbpv5nyxwqyuvqqkg4bsmamojmklnzwam2cx5lqjyyk3lrwf6fte",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Overgrown Portal"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #57",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeicpkdoj4ybvkst6po3l7fmygmylhujfxjen5hdgo545hgdfltwgei",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #58",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifxsoksxwrlf2zkvvnfixtwpplsvpssptta6pn7s33ysnhcg2zi3q",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #59",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeibtqyc7l5jdidqusjulab3pljf2vv2wwdudhfnnnop2jjxg24lebu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #60",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeif66p2y7ryj4esonjb4b6ljli2oayvyyttgl7bwc4mncyyvtrnujq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #61",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiayqbyjqyqzu7n4fazso7lhyghsn2hsskbjp54m2egl2kvmx25dj4",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #62",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifiqlg3v7bu4kexyqrhyje6awj5ym2rb2lxhnuzmphkx7ddeo6y5y",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Platinum"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #63",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeieyimr2zvhf2x5diqksc7p6f6unt2hezzutmsccmi2wnaqg2aeuyy",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #64",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifkzfwgeoa2ui5y2655uj22thq2cgeeu5sd6lksd2j24diji5tpze",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #65",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifw6sayr2dhmu4qrttvhqrgxvsl5cnx4cmm2mlwkx2z2a3j2lz354",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Gold"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #66",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeica7jlg7ptvqtsw2oetpkx76qpxfufcy56ite5wrcrmxvakjilxlq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #67",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiac4j3nip5eny62cgzilfqah27vwi5rc5dhdsgnv2742kolqsvhli",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #68",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihlcan3ghdqzytnzo2clbkystl66rjppc2uprhkoca5msf2h3xiwu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #69",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeid4sd5uaebn7eovep4nua3fwgfbkqlk7ao5r6r6oikpb6fcgr3yli",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #70",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeicdxw4twkfngihonnvb7kq3vwsvdowvwwsyvxnu7ljddnswoj5ule",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #71",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifdp7jqts4osfhuchirnzc6uqpc2ehinai5jwigehhlgybkz5ghia",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Sword Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #72",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeid3ckrag2dx3eutdehizpgxe5mqimnp6guul6x35re35xyinhmxxe",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #73",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiarhiqqzpceuhgjvs4dk2s74zcxgynshxizkcc36q5c4q7azweekm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #74",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiglrom6cnh27dt34vldobkquhju3kg52ooaety2paxdwplz4wzffu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #75",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeif4qeuh3elxmx64bihnt4x7p75m6ekcgf7vgbjetlmeokvic2p4rq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #76",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiahg25spwf2h4y56cxo2ouqaxk6rvlo7wvxc2lnjdcjhz7kmsbm5e",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Platinum"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #77",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeieocuvdkxcacsrko7z7ifyc6nyru4sfoqrafddxcfzppa5hyge2ze",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #78",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeigykdnn43ghb7hgag7otzqcr6aq4ywtbo377harks4rz2iulxhfim",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #79",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeie73bfq3ernfgygixqxaqloxkndb6xvfs5etr4eygd6pgynaqewhe",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #80",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiddiokcysfdiofp5qjywybkyzvj7wnhon7vvgcnlf4lzg5vuesxnu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Copper"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #81",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiflq7aoghvigd4rt2dmhnk2jisxjacqlpy2mebswvfca63g7q4i3a",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #82",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiddyfo6jz54bdawr55v2rcyg7qm2s4dplkm6vp2bwnwb37fdwogwe",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Platinum"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Library"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #83",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeif6p5gq6aqzgmujjkyjqbwpgjsvgbzlaobptccuob5bx7rhnx7t3m",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #84",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeibn72n3oqrxu4a3s56bv7bonktlplqua6fhlnrcu7myccu42uilyu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Marble"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #85",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeihfzjh6ks5bm2dv4zqwtpbv5moapefjbwnymbxbtvcq7abp4u744a",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Sword Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #86",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiaki6bnwpwacnify26wwraq6vdqza4fl7gziinkbcyq3su74o4q3a",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Porcelain"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #87",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeie4iad72tknj45j5qxkaz2hv5ugrqt3g5cjoxwvyyo2up6qcgwuga",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Anchor Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Ornate Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Glacial Lake Overlook"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #88",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiff63lbxvkscfi2ybpqkishzsagw42hik7h376n5fopitdeqq6mnm",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #89",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeib6ghq7dsa44mc4yfd2ld7e46b2d4yfwujfgqhl52czp2quis6crq",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Organic Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #90",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiashmddvq5pui42qjxibtavljz2l2th53u7s2a3b4bb7cvhxxstsi",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #91",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiedqjak77oiosrvfmfqui2ejknfi2rgepfp57qauuu3b67oqu63my",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Platinum"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Bladed Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Sword Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Clock Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #92",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiauzzr5rml363ggur2kkgtu72w3hwqzl7n74orwctlfwmvkj3adf4",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Anchor Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #93",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeie7ghfcij2rfyxnx4hottavactzih6zgkstmjrdsuqwolv7huhm6i",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Library"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #94",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiem3xv6slu7hrrkkorr7dtrqqrz7b52hv6xdya6pljbrvdu4xke3q",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Sword Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #95",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeibstgdpv7ehtxdrf7trzepvcq2ihop3hfsxpobamp4fduiepk3cl4",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Trident Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Organic Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #96",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeiewn45ojh5i4za5k7sfxqfof7icudhxvftxhpklaabqm7pyr5kdc4",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #97",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeidl5efszlwoq2pg3kheuafggzxfxtfidfrb266aep6tec2qfrma4i",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Blood"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Simple Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Ornate Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Scholar Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #98",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeie46xygnsoaekyugridnsjgvg7tia5liiuj6gd2azjcah6pxbqsmu",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Silver"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Tree Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Clock Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  },
+  {
+    "name": "The Scholar Key #99",
+    "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+    "image": "https://ipfs.io/ipfs/bafybeifccsz43um7wyr2uybxjsue3b2m2urw2btmkwe4jotbqsgpalta6u",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Shadow"
+      },
+      {
+        "trait_type": "Tooth",
+        "value": "Maze Tooth"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Scholar Base"
+      },
+      {
+        "trait_type": "Top",
+        "value": "Sword Top"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream"
+      }
+    ],
+    "external_url": "https://thescholar.xyz",
+    "edition": 1,
+    "compiler": "Corpus Art Engine"
+  }
+]

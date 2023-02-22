@@ -1,0 +1,30 @@
+{
+  "name": "The Scholar Key #56",
+  "description": "The Scholar Keys unlock weighted, trait-based voting on The Scholar story.",
+  "image": "https://ipfs.io/ipfs/bafybeicbpv5nyxwqyuvqqkg4bsmamojmklnzwam2cx5lqjyyk3lrwf6fte",
+  "attributes": [
+    {
+      "trait_type": "Material",
+      "value": "Stone"
+    },
+    {
+      "trait_type": "Tooth",
+      "value": "Simple Tooth"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Scholar Base"
+    },
+    {
+      "trait_type": "Top",
+      "value": "Scholar Top"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Overgrown Portal"
+    }
+  ],
+  "external_url": "https://thescholar.xyz",
+  "edition": 1,
+  "compiler": "Corpus Art Engine"
+}
