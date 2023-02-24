@@ -68,6 +68,10 @@ header .container {
   width: 50px;
 }
 
+.logo a img:hover {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(3497%) hue-rotate(340deg) brightness(83%) contrast(114%);
+}
+
 .connect-symbol {
   height: 30px;
   width: 30px;
