@@ -59,6 +59,10 @@ header .container {
   align-items: center;
 }
 
+.menu a:hover img {
+  filter: grayscale(100%) brightness(50%) hue-rotate(90deg);
+}
+
 .logo a img {
   height: 50px;
   width: 50px;
