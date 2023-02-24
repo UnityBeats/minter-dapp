@@ -152,7 +152,20 @@ async function loadInfo() {
   const mintContainer = document.getElementById("mintContainer");
   const mintButton = document.getElementById("mintButton");
   const spinner = document.getElementById("spinner");
+  const closeButton = document.getElementById("closeButton");
+  const openButton = document.getElementById("buyButton");
 
+  mintContainer.classList.add('hidden');
+
+  openButton.addEventListener('click', () => {
+    mintContainer.classList.remove('hidden');
+  });
+
+  closeButton.addEventListener('click', () => {
+    mintContainer.classList.add('hidden');
+  });
+
+  mintContainer
   let startTime = "";
   if (publicMintActive) {
     mainHeading.innerText = h1_public_mint;
