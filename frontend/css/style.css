@@ -59,6 +59,16 @@ header .container {
   align-items: center;
 }
 
+.logo {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.connect-symbol {
+  max-height: 50px;
+  max-width: 50px;
+}
+
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;

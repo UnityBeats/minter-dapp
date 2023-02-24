@@ -33,6 +33,8 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
+const splide = ()
+
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
@@ -61,7 +63,7 @@ const updateConnectStatus = async () => {
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
   } else {
-    onboardButton.innerText = "Connect MetaMask!";
+    onboardButton.innerHTML = `<img class="connect-symbol" src="images/symbols/Website Symbols 19.png" alt="connectsymbol">`;
     // HIDE SPINNER
     spinner.classList.add('hidden');
     notConnected.classList.remove('hidden');
