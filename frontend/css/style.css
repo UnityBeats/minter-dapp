@@ -75,6 +75,7 @@ header .container {
 .connect-symbol {
   height: 50px;
   width: 50px;
+  filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(3497%) hue-rotate(340deg) brightness(83%) contrast(114%);
 }
 
 /* NOT CONNECTED */
