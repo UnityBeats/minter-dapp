@@ -24,7 +24,10 @@
 }
 
 body {
-  background-image: url('../images/background images/Mask Landing Page.png') no-repeat center center fixed;
+  background-image: url('../images/background images/Mask Landing Page.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
   display: flex;
   flex-flow: column;
   height: 100vh;
