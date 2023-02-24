@@ -146,7 +146,7 @@ header .container {
 }
 
 .wallet-btn:hover {
-  color: var(--accent-color);
+  background: var(--accent-color);
 }
 
 .wallet-btn:hover img {
