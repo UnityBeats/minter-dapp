@@ -24,6 +24,7 @@
 }
 
 body {
+  background-color: black;
   background-image: url('../images/background images/Mask Landing Page.png');
   background-repeat: no-repeat;
   background-size: contain;
