@@ -59,7 +59,7 @@ header .container {
   align-items: center;
 }
 
-.logo {
+.logo a img {
   height: 50px;
   width: 50px;
 }
