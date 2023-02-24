@@ -60,7 +60,7 @@ header .container {
 }
 
 .menu img:hover {
-  filter: brightness(0) saturate(100%) invert(29%) sepia(100%) saturate(7098%) hue-rotate(340deg) brightness(113%) contrast(114%);
+  filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(3497%) hue-rotate(340deg) brightness(83%) contrast(114%);
 }
 
 .logo a img {
