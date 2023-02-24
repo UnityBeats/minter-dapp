@@ -33,8 +33,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-const splide = ()
-
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
