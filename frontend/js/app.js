@@ -149,15 +149,16 @@ async function loadInfo() {
   const spinner = document.getElementById("spinner");
   const closeButton = document.getElementById("closeButton");
   const openButton = document.getElementById("buyButton");
+  const wholeSection = document.getElementById("wholeSection");
 
-  mintContainer.classList.add('hidden');
+  wholeSection.classList.add('hidden');
 
   openButton.addEventListener('click', () => {
-    mintContainer.classList.remove('hidden');
+    wholeSection.classList.remove('hidden');
   });
 
   closeButton.addEventListener('click', () => {
-    mintContainer.classList.add('hidden');
+    wholeSection.classList.add('hidden');
   });
 
   mintContainer
