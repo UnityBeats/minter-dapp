@@ -125,7 +125,6 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
@@ -142,6 +141,10 @@ header .container {
 }
 .btn:disabled {
   cursor: default;
+}
+
+.buy-button {
+  border-radius: 
 }
 
 .wallet-btn {
