@@ -151,16 +151,6 @@ async function loadInfo() {
   const openButton = document.getElementById("buyButton");
   const wholeSection = document.getElementById("wholeSection");
 
-  wholeSection.classList.add('hidden');
-
-  openButton.addEventListener('click', () => {
-    wholeSection.classList.remove('hidden');
-  });
-
-  closeButton.addEventListener('click', () => {
-    wholeSection.classList.add('hidden');
-  });
-
   mintContainer
   let startTime = "";
   if (publicMintActive) {
