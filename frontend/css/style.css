@@ -144,7 +144,7 @@ header .container {
 }
 
 .buy-button {
-  border-radius: 
+  border-radius: 3rem;
 }
 
 .wallet-btn {
@@ -164,6 +164,11 @@ header .container {
   border-radius: 4px;
   font-size: 1.2rem;
   padding: 1.5rem 3rem;
+}
+
+.closebutton-container{
+  display: flex;
+  justify-content: right;
 }
 
 /* CARD */
