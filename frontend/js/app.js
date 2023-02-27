@@ -34,42 +34,42 @@ const updateConnectStatus = async () => {
   spinner.classList.add('hidden');
 
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
-    onboardButton.innerText = "Install MetaMask!";
+    onboardButton.innerText = "INSTALL METAMASK";
     onboardButton.onclick = () => {
-      onboardButton.innerText = "Connecting...";
+      onboardButton.innerText = "CONNECTING...";
       onboardButton.disabled = true;
       onboarding.startOnboarding();
       // HIDE SPINNER
       spinner.classList.add('hidden');
-      notConnected.classList.remove('hidden');
-      notConnected.classList.add('show-not-connected');
     };
   } else if (accounts && accounts.length > 0) {
-    onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
+    onboardButton.innerText = `✔`;
+    onboardButton.classList.add('wallet-btn-connected');
     window.address = accounts[0];
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
-    notConnected.classList.remove('show-not-connected');
-    notConnected.classList.add('hidden');
+    notConnected.classList.remove('hidden');
+    notConnected.classList.add('show-not-connected');
     // SHOW SPINNER
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
   } else {
-    onboardButton.innerHTML = `<img class="connect-symbol" src="images/symbols/Website Symbols 19.png" alt="connectsymbol">`;
+    onboardButton.innerText = "CONNECT WALLET";
     // HIDE SPINNER
     spinner.classList.add('hidden');
-    notConnected.classList.remove('hidden');
-    notConnected.classList.add('show-not-connected');
+    notConnected.classList.remove('show-not-connected');
+    notConnected.classList.add('hidden');
     onboardButton.onclick = async () => {
       await window.ethereum
         .request({
           method: "eth_requestAccounts",
         })
         .then(function (accts) {
-          onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
-          notConnected.classList.remove('show-not-connected');
-          notConnected.classList.add('hidden');
+          onboardButton.innerText = `✔`;
+          onboardButton.classList.add('wallet-btn-connected');
+          notConnected.classList.remove('hidden');
+          notConnected.classList.add('show-not-connected');
           // SHOW SPINNER
           spinner.classList.remove('hidden');
           onboardButton.disabled = true;
@@ -150,16 +150,36 @@ async function loadInfo() {
   const closeButton = document.getElementById("closeButton");
   const openButton = document.getElementById("buyButton");
   const wholeSection = document.getElementById("wholeSection");
+  const notConnected = document.querySelector('.not-connected');
 
   wholeSection.classList.add('hidden');
 
   openButton.addEventListener('click', () => {
     wholeSection.classList.remove('hidden');
+    notConnected.classList.remove('show-not-connected');
+    notConnected.classList.add('hidden');
   });
 
   closeButton.addEventListener('click', () => {
     wholeSection.classList.add('hidden');
+    notConnected.classList.remove('hidden');
+    notConnected.classList.add('show-not-connected');
   });
+
+  const handleOnMouseMove = e => {
+    const { currentTarget: target } = e;
+
+    const rect = target.getBoundingClientRect(),
+      x = e.clientX - rect.left,
+      y = e.clientY - rect.top;
+
+    target.style.setProperty("--mouse-x", `${x}px`);
+    target.style.setProperty("--mouse-y", `${y}px`);
+  }
+
+  for(const countdown of document.querySelectorAll(".countdown")) {
+    countdown.onmousemove = e => handleOnMouseMove(e);
+  }
 
   mintContainer
   let startTime = "";

@@ -37,37 +37,34 @@
           </a>
         </div>
         <div class="menu">
-          <a
-            href="https://discord.gg/A9CnsVzzkZ"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/discord.webp" alt="Discord" />
-          </a>
-          <a
-            href="https://twitter.com/codeSTACKr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/twitter.webp" alt="Twitter" />
-          </a>
-          <a
-            href="https://opensea.io/collection/codecats"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/opensea.webp" alt="Opensea" />
-          </a>
-          <button class="buy-button btn" id="buyButton">Buy</button>
+          <button class="chapters-button" id="readButton">CHAPTERS</button>
+          <button class="world-button" id="readButton">WORLD</button>
+          <div class="dropdown">
+            <button class="socials-button">SOCIALS
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer">
+                <img src="images/header/discord.webp" alt="Discord" />
+              </a>
+              <a href="https://twitter.com/codeSTACKr" target="_blank" rel="noopener noreferrer">
+                <img src="images/header/twitter.webp" alt="Twitter" />
+              </a>
+              <a href="https://opensea.io/collection/codecats" target="_blank" rel="noopener noreferrer">
+                <img src="images/header/opensea.webp" alt="Opensea" />
+              </a>
+            </div>
+          </div>
           <button class="wallet-btn btn" id="connectWallet">
           </button>
         </div>
       </div>
     </header>
 
+
     <section class="container not-connected">
-      <div>
-        </p>
+      <div class="buy-section">
+        <button class="buy-button" id="buyButton">LOCKSMITH</button>
       </div>
     </section>
 
@@ -115,15 +112,15 @@
         <div id="mintContainer" class="mint-container hidden">
           <div class="info-container">
             <div>
-              <h3>Supply</h3>
+              <h3>supply</h3>
               <p id="totalSupply">100</p>
             </div>
             <div>
-              <h3>Price Per Mint</h3>
+              <h3>price per key</h3>
               <p id="pricePerMint">1 ETH</p>
             </div>
             <div>
-              <h3>Max</h3>
+              <h3>max</h3>
               <p id="maxPerMint">5 per wallet</p>
             </div>
           </div>
@@ -143,7 +140,7 @@
             <button id="setQtyMax" class="btn">SET MAX</button>
           </div>
           <div class="total-price-container">
-            <h3>Total</h3>
+            <h3>total</h3>
             <p id="totalPrice">.001 ETH</p>
           </div>
           <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
@@ -151,10 +148,10 @@
       </div>
       <div class="minted-container card show-card hidden">
         <h1>🎉</h1>
-        <h2>Minted!</h2>
+        <h2>FORGED.</h2>
         <p>Here's your trasaction link:</p>
         <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
-          <button class="hero-btn btn">View Transaction</button>
+          <button class="hero-btn btn">VIEW TRANSACTION</button>
         </a>
         <p>View it in the collection:</p>
         <a
@@ -163,7 +160,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button class="hero-btn btn">View Collection</button>
+          <button class="hero-btn btn">VIEW COLLECTION</button>
         </a>
       </div>
     </section>
