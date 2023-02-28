@@ -22,7 +22,6 @@ for (let i = 1; i <= numImages; i++) {
 // function to update the animation
 function updateAnimation() {
 // update the image
-window.clearTimeout(animationId);
 animation.style.backgroundImage = `url(${images[currentFrame].src})`;
 
 // increment the current frame
@@ -31,6 +30,7 @@ currentFrame++;
 // check if we've reached the end of the animation
 if (currentFrame >= numImages) {
     // stop the animation
+    window.clearTimeout(animationId);
     cancelAnimationFrame(animationId);
     // do whatever you want to do when the animation is complete
     animation.style.backgroundImage = "url(images/logoanim/Scholar Text Stroke74.png)";
@@ -38,7 +38,7 @@ if (currentFrame >= numImages) {
 }
 
 // request the next frame
-animationId = setTimeout(updateAnimation, 30);
+animationId = setTimeout(updateAnimation, 1000/30);
 }
 
 // start the animation
