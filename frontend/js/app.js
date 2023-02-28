@@ -158,12 +158,14 @@ async function loadInfo() {
     wholeSection.classList.remove('hidden');
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
+    document.body.classList.add('body-blur');
   });
 
   closeButton.addEventListener('click', () => {
     wholeSection.classList.add('hidden');
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
+    document.body.classList.remove('body-blur');
   });
 
   const handleOnMouseMove = e => {
@@ -313,6 +315,7 @@ function setTotalPrice() {
   totalPrice.innerText = `${price} ${priceType}`;
   mintButton.disabled = false;
   mintInput.disabled = false;
+
 }
 
 async function mint() {

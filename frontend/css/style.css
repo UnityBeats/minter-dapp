@@ -1,6 +1,7 @@
 /* FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* GLOBAL STYLES */
 
@@ -8,6 +9,7 @@
   --font-primary: "Raleway";
   --font-secondary: "Raleway";
   --font-code: "Raleway";
+  --font-numbers: "Roboto";
   --bg-color: #000000;
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
@@ -25,16 +27,19 @@
 }
 
 body {
-  background-color: black;
-  background-image: url('../images/background images/Mask Landing Page.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
   display: flex;
   flex-flow: column;
   height: 100vh;
+  width: 100vw;
   color: var(--font-color);
   font-family: var(--font-primary);
+}
+
+#animation {
+  background-color: black;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .container {
@@ -46,10 +51,28 @@ body {
   overflow: hidden;
 }
 
+/* BODY BLUR */
+
+.body-blur::before {
+  /* Create a pseudo-element to hold the blurred background image */
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/background images/Mask Landing Page.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  filter: blur(10px); /* Blur the background */
+  z-index: -1;
+}
+
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  background-color: transparent;
 }
 
 header .container {
@@ -115,7 +138,7 @@ header .container {
   color: white;
   border-color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.2rem;
   text-align: center;
   text-transform: capitalize;
@@ -198,7 +221,7 @@ header .container {
   background-color: transparent;
   color: white;
   font-family: var(--font-secondary);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.8rem;
   text-align: center;
   text-transform: capitalize;
@@ -341,18 +364,24 @@ section {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-size: 3rem;
+  font-weight: 400;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .countdown h2 {
   margin-top: 1rem;
+  color:rgba(255, 255, 255, 0.8)
 }
 
 .countdown > p {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
   font-family: var(--font-secondary);
   margin-bottom: 4rem;
   text-align: center;
+  color:rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
 }
 
 /* MINT CONTAINER */
@@ -370,6 +399,18 @@ section {
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
+  padding: 0 3rem;
+}
+
+.info-container h3 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.3rem;
+}
+
+.info-container p {
+  font-family: var(--font-numbers);
 }
 
 .mint-qty {
@@ -379,6 +420,10 @@ section {
   padding: 2rem 4rem;
   background-color: transparent;
   border-radius: 5px;
+}
+
+.mint-qty button:active {
+  transform: scale(0.8);
 }
 
 .mint-qty > span {
@@ -399,6 +444,8 @@ section {
   vertical-align: top;
   text-align: center;
   outline: none;
+  font-size: 1.1rem;
+  font-family: var(--font-numbers);
 }
 
 .input-number,
@@ -407,17 +454,30 @@ section {
   user-select: none;
 }
 
-.input-number-decrement {
-  /* Custom styles for decrement button */
-  font-size: 1.2rem;
-  font-weight: 700;
-  
+.input-number-decrement,
+.input-number-increment {
+  border: none;
+  box-shadow: none;
 }
 
-.input-number-increment {
-  /* Custom styles for increment button */
-  font-size: 1.2rem;
-  font-weight: 700;
+.input-number-increment svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.input-number-decrement svg {
+  width: 1.8rem;
+  height: 1.5rem;
+}
+
+.input-number-increment svg:hover path {
+  stroke: var(--header-btn-color);
+  transition: all 0.3s ease;
+}
+
+.input-number-decrement svg:hover path {
+  fill: var(--header-btn-color);
+  transition: all 0.3s ease;
 }
 
 input::-webkit-outer-spin-button,
@@ -430,11 +490,30 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.set-max {
+  font-size: 0.9rem;
+}
+
+.set-max:hover {
+  color: var(--header-btn-color);
+}
+
 .total-price-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 1rem 0 2rem;
+}
+
+.total-price-container h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.total-price-container p {
+  font-family: var(--font-numbers);
+  font-weight: 700;
 }
 
 /* MINTED CONTAINER */
