@@ -1,4 +1,4 @@
-
+// import './node_modules/animejs/lib/anime.min.js';
 
 const images = [
     '../images/logoanim/Scholar Text Stroke0.png',
