@@ -1,0 +1,616 @@
+:root {
+    --bg-size: 400%;
+    --color-one: #6e0000;
+    --color-two: #9c0000;
+}
+
+body {
+    margin: 0;
+}
+
+.big-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+}
+
+/* filter styles */
+
+.filter-side {
+    height: 100%;
+    width: 30%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-container {
+    width: 100%;
+    height: 80%;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #6e0000;
+}
+
+.filter-top {
+    width: 100%;
+    height: 15%;
+    font-size: xx-large;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.filter-bottom {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.filter-item {
+    font-size: large;
+    padding: 1rem 0rem;
+    border-bottom: 2px solid #6e0000;
+}
+
+.location a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.location a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+@keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+
+.death a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.death a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+.cities a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.cities a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+.towns a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.towns a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+.villages a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.villages a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+.ports a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.ports a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+.lifts a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.lifts a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+.statues a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.statues a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+.healers a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+  
+.healers a.active {
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+        ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+/* map styles */
+
+.map-side {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin: 0rem 4rem 4rem 4rem;
+}
+
+.map-top-container {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-bottom-container {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.map-filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.choose-map-buttons {
+    width: 100%;
+    padding: 0rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.world-map-text {
+    font-size: 2.5em;
+    font-weight: 400;
+    transform: scaleY(1.1);
+}
+
+.tree-map-text {
+    font-size: 2.5em;
+    font-weight: 400;
+    display: none;
+    transform: scaleY(1.1);
+}
+
+#map { 
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* map-filter-slider */
+
+.checkbox {
+    display: none;
+  }
+  
+  .slider {
+    width: 60px;
+    height: 30px;
+    background-color: #6e0000;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border: 4px solid transparent;
+    transition: .3s;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.25) inset;
+    cursor: pointer;
+  }
+  
+  .slider::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateX(-30px);
+    border-radius: 20px;
+    transition: .3s;
+    box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);
+  }
+  
+  .checkbox:checked ~ .slider::before {
+    transform: translateX(30px);
+    box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);
+  }
+  
+  .checkbox:checked ~ .slider {
+    background-color: #000000;
+    box-shadow: 0px 0px 20px #44ff00;
+  }
+
+  .checkbox:checked ~ .slider::before {
+    background-color: transparent;
+    box-shadow: inset 0px 3px 3px 3px rgba(2, 255, 6, 0.855);
+  }
+  
+  .checkbox:active ~ .slider::before {
+    transform: translate(0);
+  }
+
+/* map icons */
+
+.my-div-icon {
+    text-align: center;
+    line-height: 40px;
+    filter: invert(100%);
+    font-size: 16px;
+}
+
+/* mobile defaults */
+
+.filter-toggle {
+    display: none;
+}
+
+.mobile-filter-bottom {
+    display: none;
+}
+
+.mobile-switch {
+    display: none;
+}
+
+/* full screen button */
+
+.fullscreen-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1000;
+    width: 30px;
+    height: 30px;
+    bottom: 20px;
+    right: 28px;
+    background-color: rgba(255, 255, 255, 0.02);
+    color: #6e0000;
+    border: none;
+    cursor: pointer;
+    border: 2px solid;
+    border-color: #6e0000;
+    border-radius: 50%;
+}
+
+.fullscreen-toggle:hover {
+    color:rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.fullscreen-toggle i {
+    font-size: 12px;
+}
+
+.fullscreen:hover {
+    color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.fullscreen.active {
+    background-color: rgba(110, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(110, 0, 0, 0.5);
+}
+
+:fullscreen .filter-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1000;
+    width: 30px;
+    height: 30px;
+    bottom: 60px;
+    right: 28px;
+    background-color: rgba(255, 255, 255, 0.02);
+    color: #6e0000;
+    border: none;
+    cursor: pointer;
+    border: 2px solid;
+    border-color: #6e0000;
+    border-radius: 50%;
+}
+
+:fullscreen .filter-toggle i {
+    font-size: 12px;
+}
+
+:fullscreen .filter-toggle:hover {
+    color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+:fullscreen .filter-toggle.active {
+    background-color: rgba(110, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(110, 0, 0, 0.5);
+}
+
+:fullscreen .mobile-filter-bottom.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 20%;
+    height: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+:fullscreen .mobile-filter-item {
+    font-size: 1vw;
+    padding: 1rem 0.5rem;
+    border-bottom: 2px solid #6e0000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1080px) {
+    .map-side {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .map-top-container {
+        display: none;
+    }
+    .map-bottom-container {
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    #map {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+    .mobile-switch {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+    .filter-side {
+        display: none;
+    }
+    .filter-toggle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 2;
+        width: 30px;
+        height: 30px;
+        bottom: 60px;
+        right: 28px;
+        background-color: rgba(255, 255, 255, 0.02);
+        color: #6e0000;
+        border: none;
+        cursor: pointer;
+        border: 2px solid;
+        border-color: #6e0000;
+        border-radius: 50%;
+    }
+    .filter-toggle i {
+        font-size: 12px;
+    }
+
+    .filter-toggle:hover {
+        color: rgba(255, 255, 255, 0.8);
+        border-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .filter-toggle.active {
+        background-color: rgba(110, 0, 0, 0.5);
+	    color: rgba(255, 255, 255, 0.8);
+	    border-color: rgba(110, 0, 0, 0.5);
+    }
+
+    .mobile-filter-bottom.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        width: 60%;
+        height: auto;
+        left: 0;
+        z-index: 2;
+    }
+
+    .mobile-filter-item {
+        font-size: 2vh;
+        padding: 1rem 0.5rem;
+        border-bottom: 2px solid #6e0000;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    :fullscreen .mobile-filter-bottom.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        width: 60%;
+        height: auto;
+        left: 0;
+        z-index: 999;
+    }
+    
+    :fullscreen .mobile-filter-item {
+        font-size: 3vw;
+        padding: 1rem 0.5rem;
+        border-bottom: 2px solid #6e0000;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    @media screen and (max-height: 500px) {
+
+        .map-bottom-container {
+            height: 100%;
+        }
+
+        .mobile-filter-bottom.active {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 40%;
+            height: 80%;
+            left: 0;
+            bottom: 0;
+            z-index: 2;
+            overflow-y: scroll;
+            justify-content: flex-start;
+        }
+    
+        .mobile-filter-item {
+            font-size: 2vw;
+            padding: 1rem 0.5rem;
+            border-bottom: 2px solid #6e0000;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}

@@ -112,8 +112,7 @@
       }
     ],
     "stateMutability": "nonpayable",
-    "type": "constructor",
-    "signature": "constructor"
+    "type": "constructor"
   },
   {
     "inputs": [],

@@ -13,7 +13,18 @@ let currentFrame = 0;
 let animationId;
 
 // preload images
-for (let i = 1; i <= numImages; i++) {
+function loadImages(images) {
+    const promises = images.map((image) => {
+      return new Promise((resolve) => {
+        image.addEventListener('load', resolve);
+      });
+    });
+  
+    return Promise.all(promises);
+  }
+  
+  // preload images
+  for (let i = 1; i <= numImages; i++) {
     const img = new Image();
     img.src = `images/logoanim/Scholar Text Stroke${padNumber(i, 2)}.png`;
     images.push(img);
@@ -30,7 +41,6 @@ currentFrame++;
 // check if we've reached the end of the animation
 if (currentFrame >= numImages) {
     // stop the animation
-    window.clearTimeout(animationId);
     cancelAnimationFrame(animationId);
     // do whatever you want to do when the animation is complete
     animation.style.backgroundImage = "url(images/logoanim/Scholar Text Stroke74.png)";
@@ -38,8 +48,11 @@ if (currentFrame >= numImages) {
 }
 
 // request the next frame
-animationId = setTimeout(updateAnimation, 1000/30);
+animationId = requestAnimationFrame(updateAnimation);
 }
 
 // start the animation
-animationId = requestAnimationFrame(updateAnimation);
+loadImages(images).then(() => {
+  // start the animation
+  animationId = requestAnimationFrame(updateAnimation);
+});

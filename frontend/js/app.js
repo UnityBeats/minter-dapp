@@ -1,5 +1,24 @@
 let accounts;
 
+
+
+
+
+const handleOnMouseMove = e => {
+  const { currentTarget: target } = e;
+
+  const rect = target.getBoundingClientRect(),
+    x = e.clientX - rect.left,
+    y = e.clientY - rect.top;
+
+  target.style.setProperty("--mouse-x", `${x}px`);
+  target.style.setProperty("--mouse-y", `${y}px`);
+}
+
+for(const bgimage of document.querySelectorAll(".bgimage")) {
+  bgimage.onmousemove = e => handleOnMouseMove(e);
+}
+
 // METAMASK CONNECTION
 window.addEventListener("DOMContentLoaded", async () => {
 
@@ -29,24 +48,29 @@ window.addEventListener("DOMContentLoaded", async () => {
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
+  const onboardButtonSm = document.querySelector('.connect-wallet-sm');
   const notConnected = document.querySelector('.not-connected');
   const spinner = document.getElementById("spinner");
   spinner.classList.add('hidden');
 
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
-    onboardButton.innerText = "INSTALL METAMASK";
+    onboardButton.innerText = "Install Metamask";
+    onboardButtonSm.innerText = "Install Metamask";
     onboardButton.onclick = () => {
-      onboardButton.innerText = "CONNECTING...";
+      onboardButton.innerText = "Connecting...";
       onboardButton.disabled = true;
       onboarding.startOnboarding();
       // HIDE SPINNER
       spinner.classList.add('hidden');
     };
   } else if (accounts && accounts.length > 0) {
-    onboardButton.innerText = `✔`;
+    onboardButton.innerText = `✔...${accounts[0].slice(-6)}`;
+    onboardButtonSm.innerText = `✔...${accounts[0].slice(-6)}`;
     onboardButton.classList.add('wallet-btn-connected');
+    onboardButtonSm.classList.add('wallet-sm-connected');
     window.address = accounts[0];
     onboardButton.disabled = true;
+    onboardButtonSm.disabled = true;
     onboarding.stopOnboarding();
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
@@ -55,7 +79,8 @@ const updateConnectStatus = async () => {
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
   } else {
-    onboardButton.innerText = "CONNECT WALLET";
+    onboardButton.innerText = "Connect Wallet";
+    onboardButtonSm.innerText = "Connect Wallet";
     // HIDE SPINNER
     spinner.classList.add('hidden');
     notConnected.classList.remove('show-not-connected');
@@ -66,13 +91,32 @@ const updateConnectStatus = async () => {
           method: "eth_requestAccounts",
         })
         .then(function (accts) {
-          onboardButton.innerText = `✔`;
+          onboardButton.innerText = `✔...${accts[0].slice(-6)}`;
           onboardButton.classList.add('wallet-btn-connected');
           notConnected.classList.remove('hidden');
           notConnected.classList.add('show-not-connected');
           // SHOW SPINNER
           spinner.classList.remove('hidden');
           onboardButton.disabled = true;
+          window.address = accts[0];
+          accounts = accts;
+          window.contract = new web3.eth.Contract(abi, contractAddress);
+          loadInfo();
+        });
+    };
+    onboardButtonSm.onclick = async () => {
+      await window.ethereum
+        .request({
+          method: "eth_requestAccounts",
+        })
+        .then(function (accts) {
+          onboardButtonSm.innerText = `✔...${accts[0].slice(-6)}`;
+          onboardButtonSm.classList.add('wallet-sm-connected');
+          notConnected.classList.remove('hidden');
+          notConnected.classList.add('show-not-connected');
+          // SHOW SPINNER
+          spinner.classList.remove('hidden');
+          onboardButtonSm.disabled = true;
           window.address = accts[0];
           accounts = accts;
           window.contract = new web3.eth.Contract(abi, contractAddress);
@@ -141,9 +185,9 @@ async function loadInfo() {
   const publicMintActive = await contract.methods.mintingActive().call();
   const presaleMintActive = await contract.methods.presaleActive().call();
   const mainHeading = document.getElementById("mainHeading");
-  const subHeading = document.getElementById("subHeading");
   const mainText = document.getElementById("mainText");
   const actionButton = document.getElementById("actionButton");
+  const actionButton2 = document.getElementById("actionButton2");
   const mintContainer = document.getElementById("mintContainer");
   const mintButton = document.getElementById("mintButton");
   const spinner = document.getElementById("spinner");
@@ -151,14 +195,14 @@ async function loadInfo() {
   const openButton = document.getElementById("buyButton");
   const wholeSection = document.getElementById("wholeSection");
   const notConnected = document.querySelector('.not-connected');
-
-  wholeSection.classList.add('hidden');
+  const body = document.querySelector('body');
 
   openButton.addEventListener('click', () => {
     wholeSection.classList.remove('hidden');
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
     document.body.classList.add('body-blur');
+    body.classList.add('disable-hover');
   });
 
   closeButton.addEventListener('click', () => {
@@ -166,6 +210,7 @@ async function loadInfo() {
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
     document.body.classList.remove('body-blur');
+    body.classList.remove('disable-hover');
   });
 
   const handleOnMouseMove = e => {
@@ -189,13 +234,18 @@ async function loadInfo() {
     mainHeading.innerText = h1_public_mint;
     mainText.innerText = p_public_mint;
     actionButton.classList.add('hidden');
+    actionButton2.classList.add('hidden');
     mintButton.innerText = button_public_mint;
     mintContainer.classList.remove('hidden');
+    const countdownDiv = document.querySelector('.countdown-buttons');
+    countdownDiv.style.display = 'none';
     setTotalPrice();
   } else if (presaleMintActive) {
     startTime = window.info.runtimeConfig.publicMintStart;
     mainHeading.innerText = h1_presale_mint;
-    subHeading.innerText = h2_presale_mint;
+    actionButton2.classList.add('hidden');
+    document.querySelector('.hero-btn').style.width = 'auto';
+    document.querySelector('.hero-btn').style.padding = '1rem 2rem';
     
     try {
       // CHECK IF WHITELISTED
@@ -222,7 +272,6 @@ async function loadInfo() {
   } else {
     startTime = window.info.runtimeConfig.presaleMintStart;
     mainHeading.innerText = h1_presale_coming_soon;
-    subHeading.innerText = h2_presale_coming_soon;
     mainText.innerText = p_presale_coming_soon;
     actionButton.innerText = button_presale_coming_soon;
   }
@@ -297,6 +346,12 @@ function setTotalPrice() {
   const mintInputValue = parseInt(mintInput.value);
   const totalPrice = document.getElementById("totalPrice");
   const mintButton = document.getElementById("mintButton");
+  if(isNaN(mintInputValue)) {
+    totalPrice.innerText = 'INVALID QUANTITY';
+    mintButton.disabled = true;
+    mintInput.disabled = true;
+    return;
+  }
   if(mintInputValue < 1 || mintInputValue > info.deploymentConfig.tokensPerMint) {
     totalPrice.innerText = 'INVALID QUANTITY';
     mintButton.disabled = true;

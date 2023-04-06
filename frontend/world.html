@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Scholar</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_io/favicon-16x16.png"
+    />
+
+    <script src="leafletjs/leaflet.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" href="css/fantasymap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="leafletjs/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+
+<body>
+  <header>
+    <div id="header" class="container">
+      <div class="logo">
+        <a href="/">
+          THE SCHOLAR
+        </a>
+      </div>
+      <div class="menu">
+        <button class="about-button" id="aboutButton" onclick="location.href='about.html'">About</button>
+        <button class="chapters-button" id="readButton" onclick="location.href='turnjs/steve-jobs/chapters.html'">Chapters</button>
+        <button class="world-button" id="worldButton" onclick="location.href='world.html'">World</button>
+        <button class="gallery-button">
+          <a href="https://opensea.io/collection/codecats" target="_blank" rel="noopener noreferrer">
+            Gallery
+          </a>
+        </button>
+        <button class="discord-button">
+            <a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer">
+              <img src="images/header/discord.webp" alt="Discord" />
+            </a>
+        </button>
+        <button class="twitter-button">
+            <a href="https://twitter.com/codeSTACKr" target="_blank" rel="noopener noreferrer">
+              <img src="images/header/twitter.webp" alt="Twitter" />
+            </a>
+        </button>    
+        <button class="wallet-btn btn" id="connectWallet">
+        </button>
+      </div>
+      <div class="hamburger-menu">
+        <div id="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        </div>		  
+    </div>
+  </header>
+
+  <div class="small-screen-menu">
+    <div class="buttons-sm">
+      <button class="connect-wallet-sm">
+      </button>
+      <button class="about-button-sm" id="aboutButton" onclick="location.href='about.html'">
+        <span>About</span>
+      </button>
+      <button class="chapters-button-sm" id="readButton" onclick="location.href='turnjs/steve-jobs/chapters.html'">
+        <span>Chapters</span>
+      </button>
+      <button class="world-button-sm" id="worldButton" onclick="location.href='world.html'">
+        <span>World</span>
+      </button>
+      <button class="gallery-button-sm" onclick="location.href='https://opensea.io/collection/codecats'">
+        <span>Gallery</span>
+          <img src="images/header/opensea.webp" alt="Opensea" />
+      </button>
+      <button class="discord-button-sm" onclick="location.href='https://discord.gg/A9CnsVzzkZ'">
+        <span>DISCORD</span>
+        <img src="images/header/discord.webp" alt="Discord" />
+      </button>
+      <button class="twitter-button-sm" onclick="location.href='https://twitter.com/codeSTACKr'">
+        <span>TWITTER</span>
+          <img src="images/header/twitter.webp" alt="Twitter" />
+      </button>
+      <div class="copyright-text">
+        <p>A Corpus Project</p>
+          <p>Corpus Inc &#169; 2023</p>
+          <p>Made in Boston, MA</p>
+          <p>thescholarnfts@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="big-container">
+    <div class="filter-side">
+      <div class="filter-container">
+        <div class="filter-top">LEGEND</div>
+        <div class="filter-bottom">
+          <div class="filter-item location">
+            <a href="#" onclick="handleLocationClick()">
+              <span>Current Location</span>
+              <i class="fa-solid fa-location-dot"></i>
+            </a>
+          </div>
+          <div class="filter-item death">
+            <a href="#" onclick="handleDeathClick()">
+              <span>Deaths</span>
+              <i class="fa-solid fa-skull-crossbones"></i>
+            </a>
+          </div>
+          <div class="filter-item cities">
+            <a href="#" onclick="handleCitiesClick()">
+              <span>Cities</span>
+              <i class="fa-brands fa-fort-awesome"></i>
+            </a>
+          </div>
+          <div class="filter-item towns">
+            <a href="#" onclick="handleTownsClick()">
+              <span>Towns</span>
+              <i class="fa-solid fa-place-of-worship"></i>
+            </a>
+          </div>
+          <div class="filter-item villages">
+            <a href="#" onclick="handleVillagesClick()">
+              <span>Villages</span>
+              <i class="fa-solid fa-house-chimney-window"></i>
+            </a>
+          </div>
+          <div class="filter-item ports">
+            <a href="#" onclick="handlePortsClick()">
+              <span>Ports</span>
+              <i class="fa-solid fa-anchor"></i>
+            </a>
+          </div>
+          <div class="filter-item lifts">
+            <a href="#" onclick="handleLiftsClick()">
+              <span>Lifts</span>
+              <i class="fa-solid fa-link"></i>
+            </a>
+          </div>
+          <div class="filter-item statues">
+            <a href="#" onclick="handleStatuesClick()">
+              <span>Statues</span>
+              <i class="fa-solid fa-life-ring"></i>
+            </a>
+          </div>
+          <div class="filter-item healers">
+            <a href="#" onclick="handleHealersClick()">
+                <span>Healers</span>
+                <i class="fa-solid fa-bottle-droplet"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="map-side">
+      <div class="map-top-container">
+        <div class="map-filter-container">
+          <div class="choose-map-buttons">
+            <span class="world-map-text">The WORLD as he saw it</span>
+            <span class="tree-map-text">The TREE as he saw it</span>
+            <label class="switch">
+              <input type="checkbox" class="checkbox">
+              <div class="slider"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="map-bottom-container">
+        <div id="map"></div>
+        <button class="filter-toggle" id="filter-toggle">
+          <i class="fas fa-filter"></i>
+        </button>
+        <label class="mobile-switch">
+          <input type="checkbox" class="checkbox">
+          <div class="slider"></div>
+        </label>
+        <button class="fullscreen-toggle" id="fullscreen-toggle">
+          <i class="fas fa-expand"></i>
+        </button>        
+        <div class="mobile-filter-bottom">
+          <div class="mobile-filter-item location">
+            <a href="#" onclick="handleLocationClick()">
+              <span>Current Location</span>
+              <i class="fa-solid fa-location-dot"></i>
+            </a>
+          </div>
+          <div class="mobile-filter-item death">
+            <a href="#" onclick="handleDeathClick()">
+              <span>Deaths</span>
+              <i class="fa-solid fa-skull-crossbones"></i>
+            </a>
+          </div>
+          <div class="mobile-filter-item cities">
+            <a href="#" onclick="handleCitiesClick()">
+              <span>Cities</span>
+              <i class="fa-brands fa-fort-awesome"></i>
+            </a>
+          </div>
+          <div class="mobile-filter-item towns">
+            <a href="#" onclick="handleTownsClick()">
+              <span>Towns</span>
+              <i class="fa-solid fa-place-of-worship"></i>
+            </a>
+          </div>
+          <div class="mobile-filter-item villages">
+            <a href="#" onclick="handleVillagesClick()">
+              <span>Villages</span>
+              <i class="fa-solid fa-house-chimney-window"></i>
+            </a>
+          </div>
+          <div class="mobile-filter-item ports">
+            <a href="#" onclick="handlePortsClick()">
+              <span>Ports</span>
+              <i class="fa-solid fa-anchor"></i>
+            </a>
+          </div>
+          <div class="mobile-filter-item lifts">
+            <a href="#" onclick="handleLiftsClick()">
+              <span>Lifts</span>
+              <i class="fa-solid fa-link"></i>
+            </a>
+          </div>
+          <div class="mobile-filter-item statues">
+            <a href="#" onclick="handleStatuesClick()">
+              <span>Statues</span>
+              <i class="fa-solid fa-life-ring"></i>
+            </a>
+          </div>
+          <div class="mobile-filter-item healers">
+            <a href="#" onclick="handleHealersClick()">
+                <span>Healers</span>
+                <i class="fa-solid fa-bottle-droplet"></i>
+            </a>
+          </div>
+      </div>
+    </div>
+</div>
+
+<div id="spinner" class="dot-spin"></div>
+
+  <script src="js/fantasymap.js"></script>
+  <script src="js/metamask-onboarding.bundle.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/abi.js"></script>
+  <script src="js/constants.js"></script>
+  <script src="js/countdown.js"></script>
+  <script type="text/javascript">
+    const navIcon1 = document.getElementById('nav-icon1');
+    const smallScreenMenu = document.querySelector('.small-screen-menu');
+  
+    navIcon1.addEventListener('click', function() {
+      navIcon1.classList.toggle('open');
+      smallScreenMenu.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>

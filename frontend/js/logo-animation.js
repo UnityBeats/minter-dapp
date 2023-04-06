@@ -83,32 +83,32 @@ const animateLogo = () => {
     const myBody = document.getElementById("myBody");
 
     // preload the images
-    // for (let i = 0; i < logoImages.length; i++) {
-    //     const image = new Image();
-    //     image.src = logoImages[i];
-    //     localStorage.setItem(i, logoImages[i]);
-    // }
+    for (let i = 0; i < logoImages.length; i++) {
+        const image = new Image();
+        image.src = logoImages[i];
+        localStorage.setItem(i, logoImages[i]);
+    }
   
    
     const switchImage = () => {
       if(myBody) {
-        const img = new Image();
-        img.src = logoImages[i];
-        img.style.display = 'none';
-        document.myBody.appendChild(img);
-        img.onload = function() {
+        for (let i=0;i<2;i++){
+          img.onload = function() {
             setTimeout(function() {
-              myBody.style.backgroundImage = `url(${img.src})`;
-              img.remove(); // Remove the img element from the DOM
+              myBody.style.backgroundImage = `url(${localStorage.getItem(currentImageIndex)})`;
+              img.style.display = 'none';
+              // img.remove(); // Remove the img element from the DOM
             }, 10);
           };
-        // if (currentImageIndex === logoImages.length - 1) {
-        //     myBody.style.backgroundImage = `url(${localStorage.getItem(currentImageIndex)})`;
-        //     return; // stop the animation
-        // }
+        }
+
+        img.onload = function() {
+            setTimeout(function() {
+              myBody.style.backgroundImage = `url(${localStorage.getItem(currentImageIndex)})`;
+              // img.remove(); // Remove the img element from the DOM
+            }, 100);
+          };
     }
-        // image.src = localStorage.getItem(currentImageIndex);
-        // myBody.style.backgroundImage =`url(${image.src})`;
         currentImageIndex = (currentImageIndex + 1) % logoImages.length;
         // setTimeout(switchImage, 30);    
     }

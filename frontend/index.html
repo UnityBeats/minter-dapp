@@ -29,100 +29,153 @@
     <link rel="stylesheet" href="css/style.css" />
 
   </head>
-  <body>
-    <div id="animation">
+  <body class="disable-hover">
+    <div class="bgimage">
+    <div id="myBody" class="animation">
     <header>
-      <div class="container">
+      <div id="header" class="container">
         <div class="logo">
           <a href="/">
-            <img src="images/symbols/Website Symbols 6.png" alt="logo" />
+            THE SCHOLAR
           </a>
         </div>
         <div class="menu">
-          <button class="chapters-button" id="readButton">CHAPTERS</button>
-          <button class="world-button" id="readButton">WORLD</button>
-          <div class="dropdown">
-            <button class="socials-button">SOCIALS
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
+          <button class="about-button" id="aboutButton" onclick="location.href='about.html'">About</button>
+          <button class="chapters-button" id="readButton" onclick="location.href='turnjs/steve-jobs/chapters.html'">Chapters</button>
+          <button class="world-button" id="worldButton" onclick="location.href='world.html'">World</button>
+          <button class="gallery-button">
+            <a href="https://opensea.io/collection/codecats" target="_blank" rel="noopener noreferrer">
+              Gallery
+            </a>
+          </button>
+          <button class="discord-button">
               <a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer">
                 <img src="images/header/discord.webp" alt="Discord" />
               </a>
+          </button>
+          <button class="twitter-button">
               <a href="https://twitter.com/codeSTACKr" target="_blank" rel="noopener noreferrer">
                 <img src="images/header/twitter.webp" alt="Twitter" />
               </a>
-              <a href="https://opensea.io/collection/codecats" target="_blank" rel="noopener noreferrer">
-                <img src="images/header/opensea.webp" alt="Opensea" />
-              </a>
-            </div>
-          </div>
+          </button>    
           <button class="wallet-btn btn" id="connectWallet">
           </button>
         </div>
+        <div class="hamburger-menu">
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          </div>		  
       </div>
     </header>
 
+    <div class="small-screen-menu">
+      <div class="buttons-sm">
+        <button class="connect-wallet-sm">
+        </button>
+        <button class="about-button-sm" id="aboutButton" onclick="location.href='about.html'">
+          <span>About</span>
+        </button>
+        <button class="chapters-button-sm" id="readButton" onclick="location.href='turnjs/steve-jobs/chapters.html'">
+          <span>Chapters</span>
+        </button>
+        <button class="world-button-sm" id="worldButton" onclick="location.href='world.html'">
+          <span>World</span>
+        </button>
+        <button class="gallery-button-sm" onclick="location.href='https://opensea.io/collection/codecats'">
+          <span>Gallery</span>
+            <img src="images/header/opensea.webp" alt="Opensea" />
+        </button>
+        <button class="discord-button-sm" onclick="location.href='https://discord.gg/A9CnsVzzkZ'">
+          <span>DISCORD</span>
+          <img src="images/header/discord.webp" alt="Discord" />
+        </button>
+        <button class="twitter-button-sm" onclick="location.href='https://twitter.com/codeSTACKr'">
+          <span>TWITTER</span>
+            <img src="images/header/twitter.webp" alt="Twitter" />
+        </button>
+        <div class="copyright-text">
+          <p>A Corpus Project</p>
+            <p>Corpus Inc &#169; 2023</p>
+            <p>Made in Boston, MA</p>
+            <p>thescholarnfts@gmail.com</p>
+        </div>
+      </div>
+    </div>
 
-    <section class="container not-connected">
+    <section class="container not-connected hidden">
       <div class="buy-section">
-        <button class="buy-button" id="buyButton">VISIT THE LOCKSMITH</button>
+        <button class="buy-button" id="buyButton">Visit The Locksmith</button>
       </div>
     </section>
 
-    <section id="wholeSection" class="container">
+    <section id="wholeSection" class="container hidden">
       <div class="countdown card">
         <div class="closebutton-container">
           <button class="close-button btn" id="closeButton">X</button>
         </div>
-        <div id="countdown">
-          <ul class="count-down" data-date="">
-            <li class="clock-item">
-              <span class="count-number days">20</span>
-              <p class="count-text">Days</p>
-            </li>
+        <div class="countdown-three-section">
+          <h1 id="mainHeading">Key Sale Coming Soon!</h1>
+          <p id="mainText">
+            The locksmith is preparing his tools.
+          </p>
+          <div id="countdown">
+            <ul class="count-down" data-date="">
+              <li class="clock-item">
+                <span class="count-number days">20</span>
+                <p class="count-text">Days</p>
+              </li>
 
-            <li class="clock-item">
-              <span class="count-number hours">20</span>
-              <p class="count-text">Hour</p>
-            </li>
+              <li class="clock-item">
+                <span class="count-number hours">20</span>
+                <p class="count-text">Hours</p>
+              </li>
 
-            <li class="clock-item">
-              <span class="count-number minutes">20</span>
-              <p class="count-text">Min</p>
-            </li>
+              <li class="clock-item">
+                <span class="count-number minutes">20</span>
+                <p class="count-text">Mins</p>
+              </li>
 
-            <li class="clock-item">
-              <span class="count-number seconds">20</span>
-              <p class="count-text">Sec</p>
-            </li>
-          </ul>
-          <h2 id="subHeading">Pre-Sale Countdown</h2>
+              <li class="clock-item">
+                <span class="count-number seconds">20</span>
+                <p class="count-text">Secs</p>
+              </li>
+            </ul>
+          </div>
         </div>
-        <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
-        <p id="mainText">
-          A new batch of cute cats will be available very soon!
-        </p>
+        <div class="countdown-buttons">
         <a
           id="actionButton"
           href="https://discord.gg/A9CnsVzzkZ"
           target="_blank"
           rel="noopener noreferrer"
           class="hero-btn btn"
-          ><span>Join the Catmmunity</span>
+          ><span>Join the Community</span>
         </a>
+        <a
+          id="actionButton2"
+          href="https://twitter.com/codeSTACKr"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hero-btn btn"
+          ><span>Fate</span>
+        </a>
+        </div>
+
         <div id="mintContainer" class="mint-container hidden">
           <div class="info-container">
             <div>
-              <h3>SUPPLY</h3>
+              <h3>Supply</h3>
               <p id="totalSupply">100</p>
             </div>
             <div>
-              <h3>PRICE PER KEY</h3>
+              <h3>Price Per Key</h3>
               <p id="pricePerMint">1 ETH</p>
             </div>
             <div>
-              <h3>MAX</h3>
+              <h3>Max</h3>
               <p id="maxPerMint">5 per wallet</p>
             </div>
           </div>
@@ -136,6 +189,8 @@
               <input
                 id="mintInput"
                 class="input-number btn"
+                inputmode="numeric"
+                pattern="[0-9]+"
                 type="number"
                 value="1"
                 min="1"
@@ -147,10 +202,10 @@
                 </svg>
               </button>
             </span>
-            <button id="setQtyMax" class="set-max btn">SET MAX</button>
+            <button id="setQtyMax" class="set-max btn">Set Max</button>
           </div>
           <div class="total-price-container">
-            <h3>TOTAL</h3>
+            <h3>Total</h3>
             <p id="totalPrice">.001 ETH</p>
           </div>
           <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
@@ -158,10 +213,10 @@
       </div>
       <div class="minted-container card show-card hidden">
         <h1>🎉</h1>
-        <h2>FORGED.</h2>
+        <h2>Forged.</h2>
         <p>Here's your trasaction link:</p>
         <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
-          <button class="hero-btn btn">VIEW TRANSACTION</button>
+          <button class="hero-btn btn">View Transaction</button>
         </a>
         <p>View it in the collection:</p>
         <a
@@ -170,20 +225,38 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button class="hero-btn btn">VIEW COLLECTION</button>
+          <button class="hero-btn btn">View Collection</button>
         </a>
       </div>
     </section>
   </div>
+</div>
+
+
     <div id="spinner" class="dot-spin"></div>
 
+
     
-    <script src="js/animation.js"></script>
+    <script src="/node_modules/animejs/lib/anime.min.js"></script>
+    <script src="js/bgimagefade.js"></script>
+    <script src="js/headerfadein.js"></script>
+    <script src="js/thirdtry.js"></script>
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
     <script src="js/constants.js"></script>
     <script src="js/abi.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/transition.js"></script>
+    <script type="text/javascript">
+      const navIcon1 = document.getElementById('nav-icon1');
+      const smallScreenMenu = document.querySelector('.small-screen-menu');
+    
+      navIcon1.addEventListener('click', function() {
+        navIcon1.classList.toggle('open');
+        smallScreenMenu.classList.toggle('show');
+      });
+    </script>
+    
   </body>
 </html>

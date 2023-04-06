@@ -1,0 +1,569 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<title>The Scholar</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../images/favicon_io/favicon-16x16.png"
+    />
+	<link rel="stylesheet" href="files/css/jquery.ui.html4.css">
+	<link rel="stylesheet" href="files/css/steve-jobs-html4.css">
+	<link rel="stylesheet" href="files/css/jquery.ui.css">
+	<link rel="stylesheet" href="files/css/steve-jobs.css">
+	<link rel="stylesheet" href="../../css/style.css">
+
+<script type="text/javascript" src="files/extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="files/extras/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="files/extras/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="files/extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="files/lib/hash.js"></script>
+<script type="text/javascript" src="../../js/app.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<div id="header" class="container">
+		  <div class="logo">
+			<a href="/">
+			  THE SCHOLAR
+			</a>
+		  </div>
+		  <div class="menu">
+			<button class="about-button" id="aboutButton" onclick="location.href='../../about.html'">About</button>
+			<button class="chapters-button" id="readButton" onclick="location.href='turnjs/steve-jobs/chapters.html'">Chapters</button>
+			<button class="world-button" id="worldButton" onclick="location.href='../../world.html'">World</button>
+			<button class="gallery-button">
+			  <a href="https://opensea.io/collection/codecats" target="_blank" rel="noopener noreferrer">
+				Gallery
+			  </a>
+			</button>
+			<button class="discord-button">
+				<a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer">
+				  <img src="../../images/header/discord.webp" alt="Discord" />
+				</a>
+			</button>
+			<button class="twitter-button">
+				<a href="https://twitter.com/codeSTACKr" target="_blank" rel="noopener noreferrer">
+				  <img src="../../images/header/twitter.webp" alt="Twitter" />
+				</a>
+			</button>    
+			<button class="wallet-btn btn" id="connectWallet">
+			</button>
+		  </div>
+		  <div class="hamburger-menu">
+			<div id="nav-icon1">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</div>
+			</div>		  
+		</div>
+	  </header>
+	
+	  <div class="small-screen-menu">
+		<div class="buttons-sm">
+		  <button class="connect-wallet-sm">
+		  </button>
+		  <button class="about-button-sm" id="aboutButton" onclick="location.href='../../about.html'">
+			<span>About</span>
+		  </button>
+		  <button class="chapters-button-sm" id="readButton" onclick="location.href='turnjs/steve-jobs/chapters.html'">
+			<span>Chapters</span>
+		  </button>
+		  <button class="world-button-sm" id="worldButton" onclick="location.href='../../world.html'">
+			<span>World</span>
+		  </button>
+		  <button class="gallery-button-sm" onclick="location.href='https://opensea.io/collection/codecats'">
+			<span>Gallery</span>
+			  <img src="../../images/header/opensea.webp" alt="Opensea" />
+		  </button>
+		  <button class="discord-button-sm" onclick="location.href='https://discord.gg/A9CnsVzzkZ'">
+			<span>DISCORD</span>
+			<img src="../../images/header/discord.webp" alt="Discord" />
+		  </button>
+		  <button class="twitter-button-sm" onclick="location.href='https://twitter.com/codeSTACKr'">
+			<span>TWITTER</span>
+			  <img src="../../images/header/twitter.webp" alt="Twitter" />
+		  </button>
+		  <div class="copyright-text">
+			<p>A Corpus Project</p>
+			  <p>Corpus Inc &#169; 2023</p>
+			  <p>Made in Boston, MA</p>
+			  <p>thescholarnfts@gmail.com</p>
+		  </div>
+		</div>
+	  </div>
+
+<div class="main-container">
+	<div class="top-nav">
+		<div>
+			<a href='#page/5.png'>
+				<button>
+					<svg viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000" stroke-width="0.01024">
+						<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+						<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+						<g id="SVGRepo_iconCarrier">
+							<path d="M981.3 170.7H320c-23.6 0-42.7-19.1-42.7-42.7s19.1-42.7 42.7-42.7h661.3c23.6 0 42.7 19.1 42.7 42.7s-19.1 42.7-42.7 42.7zM981.3 938.7H320c-23.6 0-42.7-19.1-42.7-42.7s19.1-42.7 42.7-42.7h661.3c23.6 0 42.7 19.1 42.7 42.7s-19.1 42.7-42.7 42.7zM981.3 554.7H320c-23.6 0-42.7-19.1-42.7-42.7s19.1-42.7 42.7-42.7h661.3c23.6 0 42.7 19.1 42.7 42.7s-19.1 42.7-42.7 42.7z" fill="#000000"></path>
+							<path d="M106.7 128m-64 0a64 64 0 1 0 128 0 64 64 0 1 0-128 0Z" fill="#000000"></path>
+							<path d="M106.7 512m-64 0a64 64 0 1 0 128 0 64 64 0 1 0-128 0Z" fill="#000000"></path>
+							<path d="M106.7 896m-64 0a64 64 0 1 0 128 0 64 64 0 1 0-128 0Z" fill="#000000"></path>
+						</g>
+					</svg>
+				</button>
+			</a>
+		</div>
+		<div>
+			<a href='#page/12.png'>
+				<button>
+					<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M15 3V19M15 3L21 5V21M15 3L12 4M15 19L9 21V5L3 3V19L6 20M15 19L18 20" stroke="#ad0101" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</button>
+			</a>
+		</div>
+		<div id="zoom-button">
+			<button>
+				<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M21.7092 2.29502C21.8041 2.3904 21.8757 2.50014 21.9241 2.61722C21.9727 2.73425 21.9996 2.8625 22 2.997L22 3V9C22 9.55228 21.5523 10 21 10C20.4477 10 20 9.55228 20 9V5.41421L14.7071 10.7071C14.3166 11.0976 13.6834 11.0976 13.2929 10.7071C12.9024 10.3166 12.9024 9.68342 13.2929 9.29289L18.5858 4H15C14.4477 4 14 3.55228 14 3C14 2.44772 14.4477 2 15 2H20.9998C21.2749 2 21.5242 2.11106 21.705 2.29078L21.7092 2.29502Z" fill="#ad0101"/>
+					<path d="M10.7071 14.7071L5.41421 20H9C9.55228 20 10 20.4477 10 21C10 21.5523 9.55228 22 9 22H3.00069L2.997 22C2.74301 21.9992 2.48924 21.9023 2.29502 21.7092L2.29078 21.705C2.19595 21.6096 2.12432 21.4999 2.07588 21.3828C2.02699 21.2649 2 21.1356 2 21V15C2 14.4477 2.44772 14 3 14C3.55228 14 4 14.4477 4 15V18.5858L9.29289 13.2929C9.68342 12.9024 10.3166 12.9024 10.7071 13.2929C11.0976 13.6834 11.0976 14.3166 10.7071 14.7071Z" fill="#ad0101"/>
+					</svg>
+			</button>
+		</div>
+		<div>
+			<a href="files/pics/the-scholar.epub" download>
+				<button>
+					<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M13.5 3H12H8C6.34315 3 5 4.34315 5 6V18C5 19.6569 6.34315 21 8 21H12M13.5 3L19 8.625M13.5 3V7.625C13.5 8.17728 13.9477 8.625 14.5 8.625H19M19 8.625V11.8125" stroke="#ad0101" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M17.5 15V21M17.5 21L15 18.5M17.5 21L20 18.5" stroke="#ad0101" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+				</button>
+			</a>
+		</div>
+	</div>
+	<div id="canvas">
+		<div id="book-zoom">
+			<div class="sj-book">
+				<div depth="5" class="hard"> <div class="side"></div> </div>
+				<div depth="5" class="hard front-side"> <div class="depth"></div> </div>
+				<div class="own-size"></div>
+				<div class="own-size even"></div>
+				<div class="hard fixed back-side p41"> <div class="depth"></div> </div>  <!-- change the p to (total pages + 4) minus 1 -->
+				<div class="hard p42"></div> <!-- change the p to (total pages + 4) -->
+			</div>
+		</div>
+		<div id="slider-bar" class="turnjs-slider">
+			<div id="slider"></div>
+		</div>
+	</div>
+</div>
+
+<div class="mobile-notification">
+	<div class="mobile-text-container">
+		<h1>Reading on mobile:</h1>
+		<p>1. Download the epub file</p>
+		<p>2. Import into your e-reader of choice</p>
+		<p>3. Enjoy!</p>
+	</div>
+	<div class="mobile-download-button">
+		<a href="files/pics/the-scholar.epub" download>
+			<button>
+				<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M13.5 3H12H8C6.34315 3 5 4.34315 5 6V18C5 19.6569 6.34315 21 8 21H12M13.5 3L19 8.625M13.5 3V7.625C13.5 8.17728 13.9477 8.625 14.5 8.625H19M19 8.625V11.8125" stroke="#ad0101" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M17.5 15V21M17.5 21L15 18.5M17.5 21L20 18.5" stroke="#ad0101" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+			</button>
+		</a>
+	</div>
+</div>
+
+<div id="exitfs" class="exitfs">
+	<button>
+		<svg fill="#ad0101" width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon">
+			<path d="M391 240.9c-.8-6.6-8.9-9.4-13.6-4.7l-43.7 43.7L200 146.3a8.03 8.03 0 0 0-11.3 0l-42.4 42.3a8.03 8.03 0 0 0 0 11.3L280 333.6l-43.9 43.9a8.01 8.01 0 0 0 4.7 13.6L401 410c5.1.6 9.5-3.7 8.9-8.9L391 240.9zm10.1 373.2L240.8 633c-6.6.8-9.4 8.9-4.7 13.6l43.9 43.9L146.3 824a8.03 8.03 0 0 0 0 11.3l42.4 42.3c3.1 3.1 8.2 3.1 11.3 0L333.7 744l43.7 43.7A8.01 8.01 0 0 0 391 783l18.9-160.1c.6-5.1-3.7-9.4-8.8-8.8zm221.8-204.2L783.2 391c6.6-.8 9.4-8.9 4.7-13.6L744 333.6 877.7 200c3.1-3.1 3.1-8.2 0-11.3l-42.4-42.3a8.03 8.03 0 0 0-11.3 0L690.3 279.9l-43.7-43.7a8.01 8.01 0 0 0-13.6 4.7L614.1 401c-.6 5.2 3.7 9.5 8.8 8.9zM744 690.4l43.9-43.9a8.01 8.01 0 0 0-4.7-13.6L623 614c-5.1-.6-9.5 3.7-8.9 8.9L633 783.1c.8 6.6 8.9 9.4 13.6 4.7l43.7-43.7L824 877.7c3.1 3.1 8.2 3.1 11.3 0l42.4-42.3c3.1-3.1 3.1-8.2 0-11.3L744 690.4z"/>
+		  </svg>
+	</button>
+</div>
+
+<div id="spinner" class="dot-spin"></div>
+
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function() {
+  		document.body.classList.add("loaded");
+	});
+</script>
+
+
+<script type="text/javascript">
+
+function loadApp() {
+	
+	var flipbook = $('.sj-book');
+
+	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	// Mousewheel
+
+	$('#book-zoom').mousewheel(function(event, delta, deltaX, deltaY) {
+
+		var data = $(this).data(),
+			step = 30,
+			flipbook = $('.sj-book'),
+			actualPos = $('#slider').slider('value')*step;
+
+		if (typeof(data.scrollX)==='undefined') {
+			data.scrollX = actualPos;
+			data.scrollPage = flipbook.turn('page');
+		}
+
+		data.scrollX = Math.min($( "#slider" ).slider('option', 'max')*step,
+			Math.max(0, data.scrollX + deltaX));
+
+		var actualView = Math.round(data.scrollX/step),
+			page = Math.min(flipbook.turn('pages'), Math.max(1, actualView*2 - 2));
+
+		if ($.inArray(data.scrollPage, flipbook.turn('view', page))==-1) {
+			data.scrollPage = page;
+			flipbook.turn('page', page);
+		}
+
+		if (data.scrollTimer)
+			clearInterval(data.scrollTimer);
+		
+		data.scrollTimer = setTimeout(function(){
+			data.scrollX = undefined;
+			data.scrollPage = undefined;
+			data.scrollTimer = undefined;
+		}, 1000);
+
+	});
+
+	// Slider
+
+	$( "#slider" ).slider({
+		min: 1,
+		max: 100,
+
+		start: function(event, ui) {
+
+			if (!window._thumbPreview) {
+				_thumbPreview = $('<div />', {'class': 'thumbnail'}).html('<div></div>');
+				setPreview(ui.value);
+				_thumbPreview.appendTo($(ui.handle));
+			} else
+				setPreview(ui.value);
+
+			moveBar(false);
+
+		},
+
+		slide: function(event, ui) {
+
+			setPreview(ui.value);
+
+		},
+
+		stop: function() {
+
+			if (window._thumbPreview)
+				_thumbPreview.removeClass('show');
+			
+			$('.sj-book').turn('page', Math.max(1, $(this).slider('value')*2 - 2));
+
+		}
+	});
+
+
+	// URIs
+	function turnToHashPage() {
+				var hash = window.location.hash.substr(1); // get hash without #
+				var page = parseInt(hash.replace('page/', '')); // extract page number from hash
+				if (!isNaN(page)) { // check if page is a number
+					$('.sj-book').turn('page', page); // turn to page
+				}
+	}
+
+	
+	Hash.on('^page\/([0-9]*)$', {
+		yep: function(path, parts) {
+
+			var page = parts[1];
+
+			if (page!==undefined) {
+				if ($('.sj-book').turn('is'))
+					$('.sj-book').turn('page', page);
+			}
+
+		},
+		nop: function(path) {
+
+			if ($('.sj-book').turn('is'))
+				$('.sj-book').turn('page', 1);
+		}
+	});
+
+	$(window).on('hashchange', function() {
+		turnToHashPage();
+	});
+
+	// Arrows
+
+	$(document).keydown(function(e){
+
+		var previous = 37, next = 39;
+
+		switch (e.keyCode) {
+			case previous:
+
+				$('.sj-book').turn('previous');
+
+			break;
+			case next:
+				
+				$('.sj-book').turn('next');
+
+			break;
+		}
+
+	});
+
+
+	// Fade out of top nav
+
+	function addFadeOut() {
+  		if (flipbook.turn('page') >= 2) {
+    		$('.top-nav').addClass('fadeout');
+ 		} else {
+    		$('.top-nav').removeClass('fadeout');
+  		}
+	}
+
+	$('.top-nav').on({
+  		mouseover: function() {
+    		$(this).removeClass('fadeout');
+  		},
+  		mouseout: function() {
+    		addFadeOut();
+  		}
+	});
+
+	// Flipbook
+	
+	flipbook.bind(($.isTouch) ? 'touchend' : 'click');
+
+	$('#zoom-button').on('click', zoomHandle);
+	$('#exitfs').on('click', zoomHandle);
+
+	flipbook.turn({
+		elevation: 50,
+		acceleration: !isChrome(),
+		autoCenter: true,
+		gradients: true,
+		duration: 1000,
+		pages: 42, //change to total pages + 4
+		when: {
+			turning: function(e, page, view) {
+				
+				var book = $(this),
+					currentPage = book.turn('page'),
+					pages = book.turn('pages');
+
+				if (currentPage>3 && currentPage<pages-3) {
+				
+					if (page==1) {
+						book.turn('page', 2).turn('stop').turn('page', page);
+						e.preventDefault();
+						return;
+					} else if (page==pages) {
+						book.turn('page', pages-1).turn('stop').turn('page', page);
+						e.preventDefault();
+						return;
+					}
+				} else if (page>3 && page<pages-3) {
+					if (currentPage==1) {
+						book.turn('page', 2).turn('stop').turn('page', page);
+						e.preventDefault();
+						return;
+					} else if (currentPage==pages) {
+						book.turn('page', pages-1).turn('stop').turn('page', page);
+						e.preventDefault();
+						return;
+					}
+				}
+
+
+				updateDepth(book, page);
+				
+				if (page>=2)
+					$('.sj-book .p2').addClass('fixed');
+				else
+					$('.sj-book .p2').removeClass('fixed');
+
+				if (page<book.turn('pages'))
+					$('.sj-book .p41').addClass('fixed'); //change p# to (total pages + 4) minus 1
+				else
+					$('.sj-book .p41').removeClass('fixed'); //change p# to (total pages + 4) minus 1
+
+				Hash.go('page/'+page).update();
+
+				addFadeOut();
+					
+			},
+
+			turned: function(e, page, view) {
+
+				var book = $(this);
+
+				if (page==2 || page==3) {
+					book.turn('peel', 'br');
+				}
+
+				updateDepth(book);
+				
+				$('#slider').slider('value', getViewNumber(book, page));
+
+				book.turn('center');
+
+				addFadeOut();
+
+			},
+
+			start: function(e, pageObj) {
+		
+				moveBar(true);
+
+			},
+
+			end: function(e, pageObj) {
+			
+				var book = $(this);
+
+				updateDepth(book);
+
+				setTimeout(function() {
+					
+					$('#slider').slider('value', getViewNumber(book));
+
+				}, 1);
+
+				moveBar(false);
+
+				addFadeOut();
+
+			},
+
+			missing: function (e, pages) {
+
+				for (var i = 0; i < pages.length; i++) {
+					addPage(pages[i], $(this));
+				}
+
+			}
+		}
+	});
+
+
+
+
+	function resizeFlipbook() {
+    var win = $(window); //this = window
+    var pageWidth = 460;
+    var pageHeight = 682;
+    if (win.width() >= 960) {
+        flipbook.width(960);
+        flipbook.turn('display','double');
+        flipbook.find('.own-size').each(function() {
+            $(this).css({
+                'width': pageWidth + 'px',
+                'height': pageHeight + 'px'
+            });
+        });
+    } else {
+        flipbook.width(480);
+        flipbook.turn('display','single');
+    }
+}
+
+$(window).on('resize', resizeFlipbook).trigger('resize');
+
+
+	$('#slider').slider('option', 'max', numberOfViews(flipbook));
+
+	flipbook.addClass('animated');
+
+	// Show canvas
+
+	$('#canvas').css({visibility: ''});
+
+}
+
+// Hide canvas
+
+$('#canvas').css({visibility: 'hidden'});
+
+// Slider pointer 
+
+$(document).on('mousedown', '.turnjs-slider .ui-slider-handle', function() {
+  $('body').css('cursor', 'pointer');
+});
+
+$(document).on('mouseup', function() {
+  $('body').css('cursor', '');
+});
+
+// Load turn.js
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['files/lib/turn.min.js'],
+	nope: ['files/lib/turn.html4.min.js', 'files/css/jquery.ui.html4.css', 'files/css/steve-jobs-html4.css'],
+	both: ['files/js/steve-jobs.js', 'files/css/jquery.ui.css', 'files/css/steve-jobs.css', '../../css/style.css'],
+	complete: loadApp
+});
+
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#nav-icon1').click(function(){
+			$(this).toggleClass('open');
+			$('.small-screen-menu').toggleClass('show');
+		});
+	});
+</script>
+
+<script src="../../js/metamask-onboarding.bundle.js"></script>
+<script src="../../js/web3.min.js"></script>
+<script src="../../js/abi.js"></script>
+<script src="../../js/constants.js"></script>
+<script src="../../js/countdown.js"></script>
+
+</body>
+</html>

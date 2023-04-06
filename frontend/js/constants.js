@@ -1,20 +1,19 @@
-const contractAddress = "0xf7568E5A5DA97Ee5D2ce91Ff4fE0488E4A04828b"; // Replace with your own contract address
+const contractAddress = "0x38eB6D83ED5b7b771A50Cd26EaF55aCCbD5ab000"; // Replace with your own contract address
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
 
-const h1_presale_coming_soon = "THE LOCKSMITH WILL SOON OPEN TO SELECT CUSTOMERS...";
-const h1_presale_mint = "SELECT SALE";
-const h1_public_mint = "PUBLIC SALE OPEN";
-const h2_presale_coming_soon = "SELECT SALE COMING SOON";
-const h2_presale_mint = "PUBLIC SALE COMING SOON";
-const p_presale_coming_soon = "THE LOCKSMITH IS GATHERING HIS TOOLS. CHECK BACK FOR FREQUENT UPDATES.";
-const p_presale_mint_not_whitelisted = "YOU ARE NOT A SELECT CUSTOMER..";
-const p_presale_mint_whitelisted = "YOU ARE A SELECT CUSTOMER!";
-const p_presale_mint_already_minted = "YOUR SELECT CUSTOMER KEYS HAVE BEEN CLAIMED. PLEASE RETURN FOR THE PUBLIC SALE.";
-const p_public_mint = "THE LOCKSMITH IS TAKING ALL CUSTOMERS";
-const button_presale_coming_soon = "BECOME A SELECT CUSTOMER";
-const button_presale_mint_whitelisted = "FORGE YOUR SELECT KEY";
-const button_presale_mint_not_whitelisted = "BECOME A SELECT CUSTOMER";
-const button_presale_already_minted = "JOIN THE COMMUNITY";
-const button_public_mint = "FORGE YOUR KEYS";
-const mint_failed = "FORGING FAILED. PLEASE TRY AGAIN.";
+const h1_presale_coming_soon = "Presale Coming Soon";
+const h1_presale_mint = "A Worthy Sale";
+const h1_public_mint = "Public Sale Open";
+const h2_presale_coming_soon = "The Scholar Keys Collection";
+const p_presale_coming_soon = "When the clock reaches zero the locksmith will open and 10 unique keys will be yours to claim. But you must first prove yourself worthy...";
+const p_presale_mint_not_whitelisted = "You Are Not Worthy";
+const p_presale_mint_whitelisted = "You Are Worthy";
+const p_presale_mint_already_minted = "Your Presale Keys Have Already Been Claimed. Please Return For The Public Sale.";
+const p_public_mint = "The Locksmith Is Taking All Customers";
+const button_presale_coming_soon = "Fervor";
+const button_presale_mint_whitelisted = "Forge Your Select Key";
+const button_presale_mint_not_whitelisted = "Access the Presale";
+const button_presale_already_minted = "Stoke the Hype";
+const button_public_mint = "Forge Your Keys";
+const mint_failed = "Forging Failed. Please Try Again.";

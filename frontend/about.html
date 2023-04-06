@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Scholar</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_io/favicon-16x16.png"
+    />
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  </head>
+
+
+<body class="preload">
+  <header>
+    <div id="header" class="container">
+      <div class="logo">
+        <a href="/">
+          THE SCHOLAR
+        </a>
+      </div>
+      <div class="menu">
+        <button class="about-button" id="aboutButton" onclick="location.href='about.html'">About</button>
+        <button class="chapters-button" id="readButton" onclick="location.href='turnjs/steve-jobs/chapters.html'">Chapters</button>
+        <button class="world-button" id="worldButton" onclick="location.href='world.html'">World</button>
+        <button class="gallery-button">
+          <a href="https://opensea.io/collection/codecats" target="_blank" rel="noopener noreferrer">
+            Gallery
+          </a>
+        </button>
+        <button class="discord-button">
+            <a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer">
+              <img src="images/header/discord.webp" alt="Discord" />
+            </a>
+        </button>
+        <button class="twitter-button">
+            <a href="https://twitter.com/codeSTACKr" target="_blank" rel="noopener noreferrer">
+              <img src="images/header/twitter.webp" alt="Twitter" />
+            </a>
+        </button>    
+        <button class="wallet-btn btn" id="connectWallet">
+        </button>
+      </div>
+      <div class="hamburger-menu">
+        <div id="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        </div>		  
+    </div>
+  </header>
+
+  <div class="small-screen-menu">
+    <div class="buttons-sm">
+      <button class="connect-wallet-sm">
+      </button>
+      <button class="about-button-sm" id="aboutButton" onclick="location.href='about.html'">
+        <span>About</span>
+      </button>
+      <button class="chapters-button-sm" id="readButton" onclick="location.href='turnjs/steve-jobs/chapters.html'">
+        <span>Chapters</span>
+      </button>
+      <button class="world-button-sm" id="worldButton" onclick="location.href='world.html'">
+        <span>World</span>
+      </button>
+      <button class="gallery-button-sm" onclick="location.href='https://opensea.io/collection/codecats'">
+        <span>Gallery</span>
+          <img src="images/header/opensea.webp" alt="Opensea" />
+      </button>
+      <button class="discord-button-sm" onclick="location.href='https://discord.gg/A9CnsVzzkZ'">
+        <span>DISCORD</span>
+        <img src="images/header/discord.webp" alt="Discord" />
+      </button>
+      <button class="twitter-button-sm" onclick="location.href='https://twitter.com/codeSTACKr'">
+        <span>TWITTER</span>
+          <img src="images/header/twitter.webp" alt="Twitter" />
+      </button>
+      <div class="copyright-text">
+        <p>A Corpus Project</p>
+          <p>Corpus Inc &#169; 2023</p>
+          <p>Made in Boston, MA</p>
+          <p>thescholarnfts@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  
+    <div class="about-page">
+        <div class="position-container">
+            <div class="bgimage-container">
+                <img class="image1" src="images/bgimages/1.png" alt="image1">
+                <img class="image2" src="images/bgimages/2.png" alt="image2">
+                <img class="image3" src="images/bgimages/3.png" alt="image3">
+                <img class="image4" src="images/bgimages/4.png" alt="image4">
+                <img class="image5" src="images/bgimages/5.png" alt="image5">
+            </div>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="item a" onmouseenter="showcicwDiv(); expandcicwDiv()" onmouseleave="retractcicwDiv(); hidecicwDiv()"><span>Cicw</span></div>
+                    <div class="item b" onmouseover="showdsnoyDiv(); expanddsnoyDiv()" onmouseout="hidedsnoyDiv(); retractdsnoyDiv()">Dsnoy</div>
+                    <div class="item c" onmouseenter="showevcwyDiv(); expandevcwyDiv()" onmouseleave="retractevcwyDiv(); hideevcwyDiv()">Evcwy</div>
+                    <div class="item d" onmouseenter="showgsvxDiv(); expandgsvxDiv()" onmouseleave="retractgsvxDiv(); hidegsvxDiv()">Gsvx</div>
+                    <div class="item e" onmouseenter="showuskgDiv(); expanduskgDiv()" onmouseleave="retractuskgDiv(); hideuskgDiv()">Uskg</div>
+                </div>
+            </div>
+            <div class="next">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="prev">
+                <i class="fa-solid fa-arrow-left-long"></i>
+            </div>
+            <div class="cicw-section">
+                <div class="cicw-div1">
+                    <span data-value="all chapters available for free">Lpn vbrteitl umetpcufv jzv hkyv</span>
+                </div>
+                <div class="cicw-div2">
+                    <span data-value="New chapter every 2-3 weeks">Yiy vbrteit xpvvj 2 xq 3 pyvod</span>
+                </div>
+                <div class="cicw-div3">
+                    <span data-value="Read or download the epub file at the chapters link above">Cicw ii hzapeirh elg xjlf qmnx<br>lx vay tlltvxlj ptrm tvfzp</span>
+                </div>
+            </div>
+            <div class="dsnoy-section">
+                <div class="dsnoy-div1">
+                    <span>Eicf og atxj ylziyhu<br>hl xs tx ceiei</span>
+                </div>
+                <div class="dsnoy-div2">
+                    <span>Yiy vbrteit, gyn tfdbey</span>
+                </div>
+                <div class="dsnoy-div3">
+                    <span>Qmtln 10 jswzgkm xie ttbtvw</span>
+                </div>
+            </div>
+            <div class="evcwy-section">
+                <div class="evcwy-div1"> 
+                    <span>Yiy mlrmew cvnzzp icvb tlltvxl</span>
+                </div>
+                <div class="evcwy-div2">
+                    <span>Mya dypw es wgffgv xttck-flwgw pfxtri</span>
+                </div>
+                <div class="evcwy-div3">
+                    <span>Lgvbpv xcekmm zrnvgtmv zzxkga gshit</span>
+                </div>
+            </div>
+            <div class="gsvx-section">
+                <div class="gsvx-div1">
+                    <span>Hlcm brtaipl hvbe?</span>
+                </div>
+                <div class="gsvx-div2">
+                    <span>Hlq ecmid st wcvw?</span>
+                </div>
+                <div class="gsvx-div3">
+                    <span>Jsw wytmoi.</span>
+                </div>
+            </div>
+            <div class="uskg-section">
+                <div class="uskg-div1">
+                    <span>Uskg nyi Omuviih</span>
+                </div>
+                <div class="uskg-div2">
+                    <span>Qst fiii trhhldeemqg</span>
+                </div>
+                <div class="uskg-div3">
+                    <span>Qsnein yd sp mqzxeit</span>
+                </div>
+            </div>
+            <div class="mobile-container">
+              <div class="mobile-read">
+                <div class="m-read-div">
+                  <span>All chapters available for free</span>
+                </div>
+                <div class="m-read-div">
+                  <span>New chapter every 2-3 weeks</span>
+                </div>
+                <div class="m-read-div">
+                  <span>Read or download the epub file on the Chapters page</span>
+                </div>
+              </div>
+              <div class="mobile-read">
+                <div class="m-read-div">
+                  <span>dsnoy puzzles</span>
+                </div>
+                <div class="m-read-div">
+                  <span>Team up</span>
+                </div>
+                <div class="m-read-div">
+                  <span>Win prizes</span>
+                </div>
+              </div>
+              <div class="mobile-read">
+                <div class="m-read-div">
+                  <span>evcwy it</span>
+                </div>
+                <div class="m-read-div">
+                  <span>Buy it</span>
+                </div>
+                <div class="m-read-div">
+                  <span>Sell it</span>
+                </div>
+              </div>
+              <div class="mobile-read">
+                <div class="m-read-div">
+                  <span>gsvx on it</span>
+                </div>
+                <div class="m-read-div">
+                  <span>Make your voice heard</span>
+                </div>
+                <div class="m-read-div">
+                  <span>Unleash your tubes</span>
+                </div>
+              </div>
+              <div class="mobile-read">
+                <div class="m-read-div">
+                  <span>uskg up</span>
+                </div>
+                <div class="m-read-div">
+                  <span>uskg now</span>
+                </div>
+                <div class="m-read-div">
+                  <span>Don't wait</span>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+  <div id="spinner" class="dot-spin"></div>
+  
+  <script src="js/about.js"></script>
+  <script src="js/metamask-onboarding.bundle.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/abi.js"></script>
+  <script src="js/constants.js"></script>
+  <script src="js/countdown.js"></script>
+  <script type="text/javascript">
+    const navIcon1 = document.getElementById('nav-icon1');
+    const smallScreenMenu = document.querySelector('.small-screen-menu');
+  
+    navIcon1.addEventListener('click', function() {
+      navIcon1.classList.toggle('open');
+      smallScreenMenu.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
