@@ -22,7 +22,7 @@ for(const bgimage of document.querySelectorAll(".bgimage")) {
 // METAMASK CONNECTION
 window.addEventListener("DOMContentLoaded", async () => {
 
-  if (window.ethereum) {
+  if (window.ethereum && window.ethereum.isMetaMask) {
     window.web3 = new Web3(window.ethereum);
     checkChain();
   } else if (window.web3) {
