@@ -632,7 +632,7 @@ body, table, form{
 	}
   }
 
-  @media only screen and (max-height: 800px) {
+  /* @media only screen and (max-height: 800px) {
 	.main-container {
 		display: none;
 	}
@@ -704,4 +704,4 @@ body, table, form{
 		height: 50px;
 		stroke: #ad0101;
 	}
-  }
+  } */
